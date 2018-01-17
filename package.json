@@ -4,11 +4,14 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest --no-cache"
   },
   "dependencies": {
     "react": "16.2.0",
-    "react-native": "0.52.0"
+    "react-native": "0.52.0",
+    "react-native-appsmiles-apmservices": "^1.0.0-beta.14",
+    "react-native-fcm": "^11.2.0",
+    "react-native-google-analytics-bridge": "^5.4.1"
   },
   "devDependencies": {
     "babel-jest": "22.1.0",
